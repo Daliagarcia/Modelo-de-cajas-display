@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 3</title>
+  <style media="screen" type="text/css">
+  * {
+   box-sizing: border-box;
+ }
+
+ body{
+   margin: 0;
+   padding: 0;
+ }
+
+ .container{
+   padding: 15px;
+ }
+
+.row{
+  height: auto;
+  overflow: hidden;
+  clear: both;
+  display: block;
+  margin-top: 30px;
+}
+
+.col-2{
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+.españa{
+ background-color: red;
+ width: 450px;
+ height: 300px;
+ position: relative;
+ border: 1px solid black;
+}
+
+.españa-yellow{
+  background-color: yellow;
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+}
+
+.dinamarca{
+  background-color: red;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.dinamarca-horizontal{
+  background-color: white;
+  width: 450px;
+  height: 30px;
+  position: absolute;
+  top: 135px;
+}
+
+.dinamarca-vertical{
+  background-color: white;
+  width: 30px;
+  height: 300px;
+  position: absolute;
+  left: 135px;
+}
+
+.emiratos{
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.emiratos-green{
+  background-color: green;
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+}
+
+.emiratos-black{
+  background-color: black;
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+}
+
+.emiratos-red{
+  background-color: red;
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+}
+
+.japon{
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.japon-circulo{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 175px;
+}
+  </style>
+ </head>
+  <body>
+  <section class="container">
+
+    <section class="row">
+      <div class="col-2">
+        <div class="españa">
+          <div class="españa-yellow">
+          </div>
+        </div>
+        <p>España</p>
+      </div>
+
+        <div class="col-2">
+          <div class="dinamarca">
+            <div class="dinamarca-horizontal">
+            </div>
+            <div class="dinamarca-vertical">
+            </div>
+          </div>
+          <p>Dinamarca</p>
+        </div>
+    </section>
+
+    <section class="row">
+      <div class="col-2">
+
+        <div class="emiratos">
+          <div class="emiratos-green">
+          </div>
+          <div class="emiratos-black">
+          </div>
+          <div class="emiratos-red">
+          </div>
+        </div>
+        <p>Emiratos Arabes</p>
+      </div>
+
+      <div class="col-2">
+        <div class="japon">
+          <div class="japon-circulo">
+          </div>
+        </div>
+        <p>Japon</p>
+      </div>
+
+    </section>
+
+  </section>
+  </body>
+</html>

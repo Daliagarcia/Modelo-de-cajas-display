@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio 9</title>
+  <style media="screen" type="text/css">
+* {
+    box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+padding: 0;
+}
+
+
+.box{
+width: 100%;
+max-width: 80%;
+height: 300px;
+margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  margin:0;
+}
+.col-30{
+  width:30%;
+  overflow: hidden;
+  float: left;
+  background-color: #f7f3f3;
+}
+.col-70{
+  width:70%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+.col-100{
+  width:100%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  background-color: black;
+  color: white;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  background-color: gray;
+  color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+
+<body>
+<div class="box">
+  <div class="row">
+    <div class="col-100">
+      <h1>Titulo Pagina</h1>
+  </div>
+  <div class="col-30">
+    <h2>Menu</h2>
+  <ul>
+    <li><a href="#">Item-1</a></li>
+    <li><a href="#">Item-2</a></li>
+    <li><a href="#">Item-3</a></li>
+    <li><a href="#">Item-4</a></li>
+    <li><a href="#">Item-5</a></li>
+  </ul>
+  </div>
+  <div class="col-70">
+  <h2>Sub-titulo</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  </div>
+
+<footer>
+  <h5>&copy; Todos los derechos reservados</h5>
+</footer>
+
+</div>
+</body>
+</html>
